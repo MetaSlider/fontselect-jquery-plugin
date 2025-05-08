@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "terser": "^5.39.0"
+  },
+  "scripts": {
+    "build": "terser jquery.fontselect.js -o jquery.fontselect.min.js --compress --mangle"
+  }
+}
